@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- meta для соцсетей -->
+    <meta property="og:url" content="">
+    <meta property="og:type" content="Website">
+    <meta property="og:title" content="Вячеслав Артеменко - верстка сайтов на HTML и CSS">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="Закажите разработку сайта без посредников">
+    <meta property="og:site_name" content="Портфолио верстальщика">
+    <meta property="article:author" content="Вячеслав Артеменко">
+    <!-- Заголовок сайта -->
+    <title>Numodus Versus</title>
+    <!-- Подключаем стили и шрифты -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/lib/slick.css"/>
+    <link rel="stylesheet" href="css/lib/slick-theme.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Фавиконка -->
+    <link rel="shortcut icon" type="image/x-icon" href="#">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="col-lg-2 col-md-4 col-sm-12 navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+							<span>
+							  <img src="img/logo.png" alt="logo">
+							</span>
+                </a>
+
+            </div>
+
+            <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-12 collapse navbar-collapse pull-right" id="navbar-collapse">
+                <ul class="navbar-nav navbar-right" id="main-menu">
+                    <li>
+                        <a href="index.html">
+                            <span>home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            <span>about</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="services.html">
+                            <span>services</span>
+                        </a>
+                    </li>
+                    <li class="dropdown active">
+                        <a href="portfolio.html" class="dropdown-toggle" data-toggle="dropdown">
+                            <span><i class="fa fa-chevron-down"></i> portfolio </span>
+                        </a>
+                        <div class="pull-down">
+                            <ul class="dropdown-menu">
+                                <li><a href="portfolio2.html">Portfolio 2 column page</a></li>
+                                <li><a href="portfolio3.html">Portfolio 3 column page</a></li>
+                                <li><a href="portfolio4.html">Portfolio 4 column page</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="blog.html">
+                            <span>blog</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="features.html">
+                            <span>features</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            <span>contacts</span>
+                        </a>
+                    </li>
+                    <!--<li>-->
+                    <!--<a href="#">-->
+                    <!--<p><i class="fa fa-search"></i></p>-->
+                    <!--</a>-->
+                    <!--</li>-->
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section class="selection">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <p>
+                    PORTFOLIO
+                </p>
+            </div>
+            <div class="col-md-2 col-md-offset-8 text-right">
+                <span>
+                    Home   /   Portfolio
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="tabs">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-8 tabs__navigation">
+                <ul>
+                    <li><a href="#">ALL</a></li>
+                    <li><a href="#">WEB DESIGN</a></li>
+                    <li><a href="#">LOGO DESIGN</a></li>
+                    <li><a href="#">PHOTOGRAPHY</a></li>
+                    <li class="select"><a href="#">WORDPRESS</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="gallery">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-3 gallery__item">
+                <div class="gallery__item-img">
+                    <img src="img/pic.jpg">
+                    <div class="gallery__item-hover text-center">
+                        <a href="https://www.facebook.com/"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        <p class="text-center">
+                            Lorem ipsum
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 gallery__item">
+                <div class="gallery__item-img">
+                    <img src="img/pic.jpg">
+                    <div class="gallery__item-hover text-center">
+                        <a href="https://www.facebook.com/"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        <p class="text-center">
+                            Lorem ipsum
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 gallery__item">
+                <div class="gallery__item-img">
+                    <img src="img/pic.jpg">
+                    <div class="gallery__item-hover text-center">
+                        <a href="https://www.facebook.com/"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        <p class="text-center">
+                            Lorem ipsum
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 gallery__item">
+                <div class="gallery__item-img">
+                    <img src="img/pic.jpg">
+                    <div class="gallery__item-hover text-center">
+                        <a href="https://www.facebook.com/"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        <p class="text-center">
+                            Lorem ipsum
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-3 gallery__item">
+                <div class="gallery__item-img">
+                    <img src="img/pic.jpg">
+                    <div class="gallery__item-hover text-center">
+                        <a href="https://www.facebook.com/"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        <p class="text-center">
+                            Lorem ipsum
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 gallery__item">
+                <div class="gallery__item-img">
+                    <img src="img/pic.jpg">
+                    <div class="gallery__item-hover text-center">
+                        <a href="https://www.facebook.com/"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        <p class="text-center">
+                            Lorem ipsum
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 gallery__item">
+                <div class="gallery__item-img">
+                    <img src="img/pic.jpg">
+                    <div class="gallery__item-hover text-center">
+                        <a href="https://www.facebook.com/"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        <p class="text-center">
+                            Lorem ipsum
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 gallery__item">
+                <div class="gallery__item-img">
+                    <img src="img/pic.jpg">
+                    <div class="gallery__item-hover text-center">
+                        <a href="https://www.facebook.com/"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        <p class="text-center">
+                            Lorem ipsum
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-3 gallery__item">
+                <div class="gallery__item-img">
+                    <img src="img/pic.jpg">
+                    <div class="gallery__item-hover text-center">
+                        <a href="https://www.facebook.com/"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        <p class="text-center">
+                            Lorem ipsum
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 gallery__item">
+                <div class="gallery__item-img">
+                    <img src="img/pic.jpg">
+                    <div class="gallery__item-hover text-center">
+                        <a href="https://www.facebook.com/"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        <p class="text-center">
+                            Lorem ipsum
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 gallery__item">
+                <div class="gallery__item-img">
+                    <img src="img/pic.jpg">
+                    <div class="gallery__item-hover text-center">
+                        <a href="https://www.facebook.com/"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        <p class="text-center">
+                            Lorem ipsum
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 gallery__item">
+                <div class="gallery__item-img">
+                    <img src="img/pic.jpg">
+                    <div class="gallery__item-hover text-center">
+                        <a href="https://www.facebook.com/"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        <p class="text-center">
+                            Lorem ipsum
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-3 gallery__item">
+                <div class="gallery__item-img">
+                    <img src="img/pic.jpg">
+                    <div class="gallery__item-hover text-center">
+                        <a href="https://www.facebook.com/"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        <p class="text-center">
+                            Lorem ipsum
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 gallery__item">
+                <div class="gallery__item-img">
+                    <img src="img/pic.jpg">
+                    <div class="gallery__item-hover text-center">
+                        <a href="https://www.facebook.com/"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        <p class="text-center">
+                            Lorem ipsum
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 gallery__item">
+                <div class="gallery__item-img">
+                    <img src="img/pic.jpg">
+                    <div class="gallery__item-hover text-center">
+                        <a href="https://www.facebook.com/"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        <p class="text-center">
+                            Lorem ipsum
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 gallery__item">
+                <div class="gallery__item-img">
+                    <img src="img/pic.jpg">
+                    <div class="gallery__item-hover text-center">
+                        <a href="https://www.facebook.com/"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        <p class="text-center">
+                            Lorem ipsum
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pages">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-md-offset-3 pages__navigation">
+                <ul>
+                    <li><a href="#"><i class="fa fa-chevron-left" aria-hidden="true"></i></a></li>
+                    <li><a href="#">1</a></li>
+                    <li class="select"><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">...</a></li>
+                    <li><a href="#">10</a></li>
+                    <li><a href="#">11</a></li>
+                    <li><a href="#">12</a></li>
+                    <li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-xs-12 footer-contacts">
+                <h2>modus<span>versus</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec .</p>
+                <p>
+                    Phone: <em>182 2569 5896</em><br/>
+                    E-mail: <em>info@modu.versus</em>
+                </p>
+            </div>
+            <div class="col-md-2 col-xs-12 footer-nav">
+                <h3>Company</h3>
+                <ul>
+                    <li>
+                        <span class><i class="fa fa-angle-right"></i></span>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <span class><i class="fa fa-angle-right"></i></span>
+                        <a href="#">FAQ</a>
+                    </li>
+                    <li>
+                        <span class><i class="fa fa-angle-right"></i></span>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <span class><i class="fa fa-angle-right"></i></span>
+                        <a href="#">Terms</a>
+                    </li>
+                    <li>
+                        <span class><i class="fa fa-angle-right"></i></span>
+                        <a href="#">Privacy</a>
+                    </li>
+                    <li>
+                        <span class><i class="fa fa-angle-right"></i></span>
+                        <a href="#">Testimonials</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-xs-12 footer-nav">
+                <h3>Community</h3>
+                <ul>
+                    <li>
+                        <span class><i class="fa fa-angle-right"></i></span>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <span class><i class="fa fa-angle-right"></i></span>
+                        <a href="#">Forum</a>
+                    </li>
+                    <li>
+                        <span class><i class="fa fa-angle-right"></i></span>
+                        <a href="#">Support</a>
+                    </li>
+                    <li>
+                        <span class><i class="fa fa-angle-right"></i></span>
+                        <a href="#">Newsletter</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-xs-12 footer-img">
+                <h3><span>From the</span> blog</h3>
+                <ul>
+                    <li>
+                        <span><img src="img/pic.png" alt=""></span>
+                        <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit<br><br><span>26 May, 2013</span></a>
+
+                    </li>
+                    <li>
+                        <span><img src="img/pic.png" alt=""></span>
+                        <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit<br><br><span>26 May, 2013</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<section class="social">
+
+    <div class="container-fluid contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-6 col-xs-12 copyright">
+                        <p>
+                            2013  ModusVersus
+                        </p>
+                    </div>
+                    <ul class="col-md-6 col-xs-12 social-icon">
+                        <li class="pull-right fa fa-rss"></li>
+                        <li class="pull-right fa fa-twitter"></li>
+                        <li class="pull-right fa fa-google-plus"></li>
+                        <li class="pull-right fa fa-facebook"></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/common.js"></script>
+<!--<script>-->
+    <!--var hid = $('.form-control').hide();-->
+
+    <!--$('.search-btn').on('click', function(e){-->
+
+        <!--e.preventDefault();-->
+
+        <!--$('hid').css('padding','0px');-->
+
+        <!--if($(hid).is(':hidden')){-->
+            <!--($(hid)).animate({-->
+                <!--width: 'show'-->
+            <!--}, 1500, function(){-->
+                <!--($(hid)).animate({-->
+                    <!--padding:'6px 12px'-->
+                <!--},1500)-->
+            <!--})-->
+        <!--}-->
+    <!--});-->
+<!--</script>-->
+</body>
+
+</html>
+
